@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate App Intents"
+  short_description: "Connect system actions to the app\u2019s real data"
+  default_prompt: "Use $integrate-app-intents to expose this app\u2019s entities and actions through App Intents."

@@ -1,0 +1,14 @@
+{
+  "name": "apple-app-craft",
+  "owner": {
+    "name": "Filip John",
+    "url": "https://github.com/filipjaj"
+  },
+  "plugins": [
+    {
+      "name": "apple-app-craft",
+      "source": "./",
+      "description": "Evidence-driven workflows to plan, build, review, and verify native Apple apps with Swift and SwiftUI."
+    }
+  ]
+}

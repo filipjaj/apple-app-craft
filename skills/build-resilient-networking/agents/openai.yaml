@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Resilient Networking"
+  short_description: "Make requests and transfers recover predictably"
+  default_prompt: "Use $build-resilient-networking to complete the intended network operation or recover predictably without duplicating its effects."

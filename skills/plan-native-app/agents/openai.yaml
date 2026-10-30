@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan a Native App"
+  short_description: "Define the core task, screens, and acceptance criteria"
+  default_prompt: "Use $plan-native-app to plan the core journey and screens for my Apple app idea."

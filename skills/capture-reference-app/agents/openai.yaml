@@ -1,0 +1,5 @@
+interface:
+  display_name: Inspect a Reference App
+  short_description: Turn reference screens into evidence-linked requirements
+  default_prompt: Use $capture-reference-app to inspect the main journey of this reference
+    app and prepare an evidence-linked rebuild handoff.

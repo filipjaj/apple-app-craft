@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Drawing Canvas"
+  short_description: "Keep drawing content editable and persistent"
+  default_prompt: "Use $build-drawing-canvas to preserve editable drawing content and predictable interactions as the canvas zooms, scrolls and reopens."

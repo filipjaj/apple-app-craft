@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design a Live Activity"
+  short_description: "Create useful glanceable ongoing-event surfaces"
+  default_prompt: "Use $design-live-activity to design a glanceable Live Activity for this ongoing event."

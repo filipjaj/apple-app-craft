@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review an Apple App"
+  short_description: "Find and prioritize evidence-backed app improvements"
+  default_prompt: "Use $review-apple-app to review this Apple app and prioritize the changes that would most improve it."

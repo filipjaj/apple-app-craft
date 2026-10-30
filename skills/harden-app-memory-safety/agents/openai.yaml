@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harden App Memory Safety"
+  short_description: "Find and reduce unsafe memory defects"
+  default_prompt: "Use $harden-app-memory-safety to reduce exploitable memory defects at the app\u2019s actual unsafe-code boundaries without masking the underlying bugs."

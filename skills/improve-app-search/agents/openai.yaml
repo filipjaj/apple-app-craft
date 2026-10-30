@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve App Search"
+  short_description: "Clarify search scope, results, and refinement"
+  default_prompt: "Use $improve-app-search to improve the search experience in this app."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build App Clip"
+  short_description: "Build focused App Clips with seamless continuation"
+  default_prompt: "Use $build-app-clip to let someone complete one contextual task immediately and continue in the full app without losing the task or its data."

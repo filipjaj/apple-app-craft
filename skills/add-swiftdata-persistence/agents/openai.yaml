@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add SwiftData Persistence"
+  short_description: "Persist domain state with deliberate relationships"
+  default_prompt: "Use $add-swiftdata-persistence to add reliable SwiftData persistence to this feature."

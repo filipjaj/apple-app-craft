@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handle Background Work"
+  short_description: "Make deferred work survive scheduling and expiration"
+  default_prompt: "Use $handle-background-work to finish useful deferred work when the system grants time and preserve a recoverable state when it does not."

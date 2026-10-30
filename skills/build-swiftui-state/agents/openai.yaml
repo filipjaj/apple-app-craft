@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Reliable SwiftUI State"
+  short_description: "Give SwiftUI state a clear owner and stable lifetime"
+  default_prompt: "Use $build-swiftui-state to fix state ownership and identity in this SwiftUI feature."

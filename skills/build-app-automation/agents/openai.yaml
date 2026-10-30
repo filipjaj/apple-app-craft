@@ -1,0 +1,5 @@
+interface:
+  display_name: Build App Automation
+  short_description: Expose app actions through a tested command interface
+  default_prompt: Use $build-app-automation to add the requested automation interface
+    using this app’s existing domain operations.

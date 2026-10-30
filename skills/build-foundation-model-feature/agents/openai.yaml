@@ -1,0 +1,5 @@
+interface:
+  display_name: Build a Foundation Models Feature
+  short_description: Build useful text and image intelligence features
+  default_prompt: Use $build-foundation-model-feature to build this app intelligence
+    feature using Foundation Models.

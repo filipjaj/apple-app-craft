@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Visual Intelligence"
+  short_description: "Return useful ranked visual search results"
+  default_prompt: "Use $integrate-visual-intelligence to return relevant app entities quickly from a supported visual-intelligence search request."

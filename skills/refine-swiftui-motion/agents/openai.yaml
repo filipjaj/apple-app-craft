@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refine SwiftUI Motion"
+  short_description: "Explain state changes with responsive motion"
+  default_prompt: "Use $refine-swiftui-motion to refine the motion and transitions in this SwiftUI interaction."

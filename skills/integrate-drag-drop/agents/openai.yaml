@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Drag and Drop"
+  short_description: "Make drag and drop preserve content and intent"
+  default_prompt: "Use $integrate-drag-drop to move or copy the intended app content to a valid destination without corrupting its source or identity."

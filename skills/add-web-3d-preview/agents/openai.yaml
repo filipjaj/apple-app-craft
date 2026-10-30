@@ -1,0 +1,4 @@
+interface:
+  display_name: "Add a Web 3D Preview"
+  short_description: "Keep web 3D usable with progressive enhancement"
+  default_prompt: "Use $add-web-3d-preview to add a progressively enhanced 3D preview to this web product page."

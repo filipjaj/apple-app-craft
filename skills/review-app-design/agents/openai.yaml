@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review an App Design"
+  short_description: "Critique design with task-specific evidence and fixes"
+  default_prompt: "Use $review-app-design to review this app\u2019s design and identify the highest-impact visual and interaction fixes."

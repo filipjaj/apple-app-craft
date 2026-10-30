@@ -1,0 +1,4 @@
+interface:
+  display_name: "Profile Foundation Models Performance"
+  short_description: "Reduce measured latency in intelligence features"
+  default_prompt: "Use $profile-foundation-model-performance to make an existing intelligence feature deliver useful results sooner without reducing task correctness or breaking session context."

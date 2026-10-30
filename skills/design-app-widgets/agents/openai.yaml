@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design App Widgets"
+  short_description: "Make widgets timely, glanceable and useful"
+  default_prompt: "Use $design-app-widgets to surface one timely piece of app value and its most useful action without requiring the app to open."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Localize App Experience"
+  short_description: "Make language and locale changes feel natural"
+  default_prompt: "Use $localize-app-experience to make the same app task understandable and usable in each requested language and locale."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Secure Agentic Features"
+  short_description: "Keep model-selected actions within user authority"
+  default_prompt: "Use $secure-agentic-features to ensure model-selected tools obey the same authorization and confirmation rules as direct user actions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design App Command Menus"
+  short_description: "Make menu commands discoverable and predictable"
+  default_prompt: "Use $design-app-command-menus to improve this app\u2019s menu commands."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Swift App Behavior"
+  short_description: "Prove meaningful behavior with isolated Swift tests"
+  default_prompt: "Use $test-swift-behavior to add meaningful regression tests for this Swift behavior."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build StoreKit Purchases"
+  short_description: "Keep purchases and paid access consistent"
+  default_prompt: "Use $build-storekit-purchases to grant and maintain the correct paid access across purchase, renewal, cancellation and recovery."

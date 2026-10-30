@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prototype a SwiftUI Flow"
+  short_description: "Explore a working SwiftUI flow with realistic fixtures"
+  default_prompt: "Use $prototype-swiftui-flow to prototype this SwiftUI flow with realistic content and edge cases."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve Interface Hierarchy"
+  short_description: "Clarify content order, action priority, and choices"
+  default_prompt: "Use $improve-interface-hierarchy to improve the information hierarchy and choice clarity in this app flow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Isolate Local App Services"
+  short_description: "Run reproducible local services with bounded access"
+  default_prompt: "Use $isolate-local-app-services to set up an isolated, reproducible local backend for this app."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Responsive Camera"
+  short_description: "Make camera preview and capture ready promptly"
+  default_prompt: "Use $build-responsive-camera to make capture ready promptly and preserve correct saved output across supported camera entry points."

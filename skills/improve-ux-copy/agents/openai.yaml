@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve App UX Copy"
+  short_description: "Make app wording clarify actions and recovery"
+  default_prompt: "Use $improve-ux-copy to improve the labels, empty states, and error messages in this flow."

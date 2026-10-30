@@ -1,0 +1,5 @@
+interface:
+  display_name: Integrate macOS Utilities
+  short_description: Build Mac system features with verified lifecycles
+  default_prompt: Use $integrate-macos-utilities to implement this Mac utility feature
+    and verify its system trigger and permission recovery.

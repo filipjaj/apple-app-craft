@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Custom Model Feature"
+  short_description: "Deliver custom model inference with measured cost"
+  default_prompt: "Use $build-custom-model-feature to run a chosen on-device model with correct inputs, validated output and acceptable preparation and inference costs."

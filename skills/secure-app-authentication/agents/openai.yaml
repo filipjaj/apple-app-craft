@@ -1,0 +1,4 @@
+interface:
+  display_name: "Secure App Authentication"
+  short_description: "Make passkey sign-in secure and recoverable"
+  default_prompt: "Use $secure-app-authentication to let the intended account sign in and recover access while maintaining server-verified identity."

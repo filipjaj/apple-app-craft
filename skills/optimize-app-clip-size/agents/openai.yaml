@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize App Clip Size"
+  short_description: "Reduce App Clip size and time to useful content"
+  default_prompt: "Use $optimize-app-clip-size to deliver the promised App Clip task quickly within the size budget required by its supported systems and invocation methods."

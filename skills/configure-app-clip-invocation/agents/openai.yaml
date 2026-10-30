@@ -1,0 +1,4 @@
+interface:
+  display_name: "Configure App Clip Invocation"
+  short_description: "Make App Clip links and discovery launch reliably"
+  default_prompt: "Use $configure-app-clip-invocation to make supported discovery surfaces launch the right App Clip experience and task, with verifiable behavior before and after full-app installation."

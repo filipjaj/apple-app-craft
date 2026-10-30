@@ -1,0 +1,5 @@
+interface:
+  display_name: Verify a macOS App
+  short_description: Verify Mac builds, captures, and real interactions
+  default_prompt: Use $verify-macos-app to check this changed Mac app against its
+    acceptance criteria and report the actual evidence.

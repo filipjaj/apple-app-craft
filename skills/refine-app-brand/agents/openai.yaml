@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refine Native App Branding"
+  short_description: "Express brand identity through usable native UI"
+  default_prompt: "Use $refine-app-brand to refine this app\u2019s brand expression while keeping native interactions."

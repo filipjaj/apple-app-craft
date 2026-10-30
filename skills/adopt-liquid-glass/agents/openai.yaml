@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adopt Liquid Glass"
+  short_description: "Create legible native glass controls and hierarchy"
+  default_prompt: "Use $adopt-liquid-glass to adopt Liquid Glass in this SwiftUI screen while preserving hierarchy."

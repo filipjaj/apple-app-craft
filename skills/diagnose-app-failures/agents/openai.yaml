@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnose App Failures"
+  short_description: "Turn failure artifacts into a concrete diagnosis"
+  default_prompt: "Use $diagnose-app-failures to find an app failure\u2019s cause from reproducible behavior and relevant diagnostic evidence."

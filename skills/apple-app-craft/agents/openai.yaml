@@ -1,0 +1,4 @@
+interface:
+  display_name: "Apple App Craft"
+  short_description: "Use the complete app-craft collection through one name"
+  default_prompt: "Use $apple-app-craft to build or improve this Apple app through a scoped, verified outcome."

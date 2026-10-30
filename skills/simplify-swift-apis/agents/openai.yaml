@@ -1,0 +1,4 @@
+interface:
+  display_name: "Simplify Swift APIs"
+  short_description: "Simplify Swift interfaces and preserve invariants"
+  default_prompt: "Use $simplify-swift-apis to simplify these Swift protocols and generic APIs."

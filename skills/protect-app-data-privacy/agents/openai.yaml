@@ -1,0 +1,4 @@
+interface:
+  display_name: "Protect App Data Privacy"
+  short_description: "Minimize data access and enforce privacy choices"
+  default_prompt: "Use $protect-app-data-privacy to collect and use only the data needed for the user\u2019s chosen task, with accurate disclosure and enforceable choices."

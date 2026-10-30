@@ -1,0 +1,4 @@
+interface:
+  display_name: "Profile SwiftUI Performance"
+  short_description: "Measure and reduce SwiftUI responsiveness problems"
+  default_prompt: "Use $profile-swiftui-performance to profile and fix the scrolling or update hitch in this SwiftUI app."

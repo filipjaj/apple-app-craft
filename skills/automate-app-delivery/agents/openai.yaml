@@ -1,0 +1,4 @@
+interface:
+  display_name: "Automate App Delivery"
+  short_description: "Make builds and beta delivery reproducible"
+  default_prompt: "Use $automate-app-delivery to produce a reproducible tested build and a deliberate distribution path for the intended audience."

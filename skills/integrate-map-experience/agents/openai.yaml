@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Map Experience"
+  short_description: "Make map search and place identity dependable"
+  default_prompt: "Use $integrate-map-experience to let people find and identify the intended place with trustworthy map context and useful recovery."

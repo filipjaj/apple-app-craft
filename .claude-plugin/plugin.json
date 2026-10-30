@@ -1,0 +1,23 @@
+{
+  "name": "apple-app-craft",
+  "version": "0.1.0",
+  "description": "Evidence-driven workflows to plan, build, review, and verify native Apple apps with Swift and SwiftUI.",
+  "author": {
+    "name": "Filip John",
+    "url": "https://github.com/filipjaj"
+  },
+  "repository": "https://github.com/filipjaj/apple-app-craft",
+  "homepage": "https://github.com/filipjaj/apple-app-craft",
+  "license": "MIT",
+  "keywords": [
+    "apple",
+    "macos",
+    "ios",
+    "swift",
+    "swiftui",
+    "skills",
+    "accessibility",
+    "verification"
+  ],
+  "skills": "./skills/"
+}

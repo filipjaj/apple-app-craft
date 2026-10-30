@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guard App Performance Regressions"
+  short_description: "Catch meaningful app performance regressions"
+  default_prompt: "Use $guard-app-performance-regressions to catch meaningful slowdowns in a critical user journey and produce enough evidence to diagnose them before release."

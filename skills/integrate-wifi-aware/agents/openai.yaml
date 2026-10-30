@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Wi-Fi Aware"
+  short_description: "Pair nearby peers and tune reliable local connections"
+  default_prompt: "Use $integrate-wifi-aware to build or improve this app’s nearby device connection."

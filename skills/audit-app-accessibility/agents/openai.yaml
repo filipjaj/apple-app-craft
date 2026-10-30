@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit App Accessibility"
+  short_description: "Make essential tasks accessible across input modes"
+  default_prompt: "Use $audit-app-accessibility to audit and improve accessibility for this app flow."

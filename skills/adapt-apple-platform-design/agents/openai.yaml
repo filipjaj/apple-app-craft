@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adapt Design Across Apple Platforms"
+  short_description: "Adapt screens and inputs to each Apple platform"
+  default_prompt: "Use $adapt-apple-platform-design to adapt this app experience for iPhone, iPad, and Mac."

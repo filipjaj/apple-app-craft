@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate Music Playback"
+  short_description: "Keep MusicKit playback and queue behavior coherent"
+  default_prompt: "Use $integrate-music-playback to play the intended music through a coherent queue while respecting authorization and subscription capability."

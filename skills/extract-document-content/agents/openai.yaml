@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extract Document Content"
+  short_description: "Extract document structure without losing context"
+  default_prompt: "Use $extract-document-content to turn a document image into useful structured information while preserving uncertainty and source context."

@@ -1,0 +1,5 @@
+interface:
+  display_name: Compose Foundation Models Profiles
+  short_description: Compose coherent AI task modes and model transitions
+  default_prompt: Use $compose-foundation-model-profiles to use Foundation Models
+    dynamic profiles to coordinate this multi-step app flow.

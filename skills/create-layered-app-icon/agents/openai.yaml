@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create a Layered App Icon"
+  short_description: "Prepare layered icons and appearance handoffs"
+  default_prompt: "Use $create-layered-app-icon to create or review a layered app icon for this product."

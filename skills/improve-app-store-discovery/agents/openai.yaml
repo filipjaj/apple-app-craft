@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve App Store Discovery"
+  short_description: "Make store presentation clear and measurable"
+  default_prompt: "Use $improve-app-store-discovery to help the intended audience understand the app\u2019s value and measure whether presentation changes improve meaningful acquisition."

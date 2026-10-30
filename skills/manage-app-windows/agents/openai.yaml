@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage App Windows"
+  short_description: "Preserve work across independent app windows"
+  default_prompt: "Use $manage-app-windows to improve this app\u2019s window behavior."

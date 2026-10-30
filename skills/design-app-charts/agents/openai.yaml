@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design App Charts"
+  short_description: "Make chart comparisons accurate and readable"
+  default_prompt: "Use $design-app-charts to communicate the intended data comparison accurately and legibly at the app\u2019s real data volume."

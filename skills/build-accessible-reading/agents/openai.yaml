@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Accessible Reading"
+  short_description: "Make long-form text readable across input modes"
+  default_prompt: "Use $build-accessible-reading to let people read, navigate and select long-form content through their preferred supported reading mode."

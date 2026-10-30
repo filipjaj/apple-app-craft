@@ -1,0 +1,5 @@
+interface:
+  display_name: Configure Private Cloud Compute
+  short_description: Route cloud intelligence with usable recovery
+  default_prompt: Use $configure-private-cloud-compute to integrate Private Cloud
+    Compute with graceful fallback and quota handling.

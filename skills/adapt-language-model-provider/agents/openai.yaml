@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adapt Language Model Provider"
+  short_description: "Preserve generation semantics across providers"
+  default_prompt: "Use $adapt-language-model-provider to preserve the app\u2019s generation contract when connecting a different language-model provider."

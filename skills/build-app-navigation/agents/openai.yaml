@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Predictable App Navigation"
+  short_description: "Preserve orientation, routes, and navigation state"
+  default_prompt: "Use $build-app-navigation to build navigation and deep-link handling for this app flow."

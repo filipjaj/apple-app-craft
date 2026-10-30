@@ -1,0 +1,5 @@
+interface:
+  display_name: Evaluate Model Quality
+  short_description: Measure AI quality and prevent prompt regressions
+  default_prompt: Use $evaluate-model-quality to evaluate this intelligence feature
+    and compare model and prompt configurations.

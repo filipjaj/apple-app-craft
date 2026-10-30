@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Native Control Interactions"
+  short_description: "Specify predictable controls, feedback, and input paths"
+  default_prompt: "Use $design-native-controls to choose and specify the controls and feedback for this interaction."

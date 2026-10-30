@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compose SwiftUI Graphics Effects"
+  short_description: "Build clear, controlled graphics-effect pipelines"
+  default_prompt: "Use $compose-swiftui-effects to compose this custom SwiftUI graphics effect from clear stages."

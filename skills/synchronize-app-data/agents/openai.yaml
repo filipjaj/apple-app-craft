@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synchronize App Data"
+  short_description: "Preserve edits while local and cloud data converge"
+  default_prompt: "Use $synchronize-app-data to converge intended local and cloud data while preserving edits, account boundaries and sharing permissions."

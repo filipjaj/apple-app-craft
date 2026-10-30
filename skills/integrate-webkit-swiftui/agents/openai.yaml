@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate WebKit with SwiftUI"
+  short_description: "Embed web content with coherent navigation and state"
+  default_prompt: "Use $integrate-webkit-swiftui to build or improve this app’s embedded web content."

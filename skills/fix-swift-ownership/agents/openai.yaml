@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Swift Ownership"
+  short_description: "Make object ownership and lifetimes intentional"
+  default_prompt: "Use $fix-swift-ownership to diagnose and fix this Swift ownership or retain-cycle problem."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Swift Concurrency"
+  short_description: "Fix isolation, cancellation, and async ordering"
+  default_prompt: "Use $fix-swift-concurrency to fix the concurrency diagnostics and async behavior in this feature."

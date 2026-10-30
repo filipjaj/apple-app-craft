@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Adaptive SwiftUI Layout"
+  short_description: "Keep content usable across widths and text sizes"
+  default_prompt: "Use $fix-adaptive-layout to fix this SwiftUI layout across small screens and large text."

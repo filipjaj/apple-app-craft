@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design an App Interface"
+  short_description: "Compose clear screens with deliberate visual hierarchy"
+  default_prompt: "Use $design-app-interface to design the screens for this Apple app task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize App Rendering Power"
+  short_description: "Reduce battery cost from unnecessary rendering"
+  default_prompt: "Use $optimize-app-rendering-power to reduce measured rendering power while preserving visible updates, legibility, and essential background work."

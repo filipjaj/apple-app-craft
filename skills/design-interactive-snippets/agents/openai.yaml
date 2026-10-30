@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Interactive Snippets"
+  short_description: "Design clear intent results and quick follow-up actions"
+  default_prompt: "Use $design-interactive-snippets to design or improve this app’s interactive intent snippet."

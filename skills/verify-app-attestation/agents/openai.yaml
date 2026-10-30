@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify App Attestation"
+  short_description: "Validate app integrity signals on the server"
+  default_prompt: "Use $verify-app-attestation to use server-validated app integrity signals to reduce abuse without blocking legitimate users indiscriminately."
