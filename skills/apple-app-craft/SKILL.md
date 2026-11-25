@@ -1,6 +1,6 @@
 ---
 name: apple-app-craft
-description: "Use the Apple App Craft collection through one entry point to plan, build, review, or improve an Apple app. Activate when the user mentions Apple App Craft or asks to use the collection; select and apply the relevant specialized skills for the task."
+description: "Load first for any work on an Apple-platform app in Swift or SwiftUI, before planning or writing code: build or scaffold a new iOS, iPadOS, macOS or watchOS app, add a feature, review an app or its user flow end to end, make a design more premium or less generic, fix state, navigation, concurrency, layout, performance or accessibility, add widgets, Live Activities, App Intents, App Clips, StoreKit, sync, push, camera, maps, on-device models, tests, or get a build to TestFlight and the App Store. Routes to the specialized workflows and names the system capabilities the app could use but does not yet. Also when the user mentions Apple App Craft."
 ---
 
 # Apple App Craft
@@ -15,7 +15,8 @@ Coordinate the specialized Apple App Craft skills toward the user’s requested 
 2. Use the catalog below to select the workflows relevant to the task. Read each selected SKILL.md before applying it. Start with the entrypoint and its necessary references; do not read every reference in the collection by default.
 3. Tell the user briefly which workflows you are applying and why. Keep a focused fix focused; for a broad app improvement, begin with evidence-based review and prioritize the most consequential findings.
 4. Carry authorized work through implementation and the selected skills’ verification criteria. Coordinate dependencies between design, state, navigation, persistence, and tests. The collection supplies methods, not a mandate to add those features to every app.
-5. Inspect the integrated result and report the changed behavior, verification evidence, and limitations. Distinguish source inspection, rendered output, actual interaction, accessibility testing, and measured performance.
+5. When the task creates an app, adds a feature, or reviews one broadly, run the opportunity check below and put its result in the plan or the report.
+6. Inspect the integrated result and report the changed behavior, verification evidence, and limitations. Distinguish source inspection, rendered output, actual interaction, accessibility testing, and measured performance.
 
 If a listed skill cannot be found, check the normal skill discovery locations for its exact name. Complete unaffected work and identify the missing component; do not claim it was applied. All linked skill directories are bundled beside this entry point in the plugin and in a complete filesystem installation.
 
@@ -23,10 +24,41 @@ If a listed skill cannot be found, check the normal skill discovery locations fo
 
 For a multi-step app build or backlog, read [the delivery workflow](references/delivery-workflow.md). It connects reference evidence, a focused brief, checkable slices, implementation, and proportionate verification. Start at the stage supported by the available artifacts; a known bug does not need a new brief. Continue within the user's authorized milestone and stop when its criteria pass. Use the artifact shapes in that reference only when the project lacks equivalents.
 
+## Opportunity check
+
+These workflows cover capabilities that rarely get asked for by name, so they go unused unless you bring them up. When creating an app, planning a feature, or doing a broad review, compare what the app does against the signals below and tell the user which ones fit.
+
+How to suggest:
+
+- Offer at most three, the strongest first. One line each: the capability, what it would do in this app specifically, and the workflow name. No generic pitch.
+- Suggest at plan time, before the build starts, so the user can fold it into scope. After a build or review, add any that the finished work revealed under a short "Could also use" heading.
+- Suggest, do not build. Implement only what the user accepts. A declined suggestion is not raised again in that project.
+- Check availability against the project's deployment target and SDK before suggesting; say so when a capability needs a newer OS than the app supports.
+- If nothing fits, say nothing. An empty check is a valid result.
+
+| Signal in the app or brief | Suggest | Workflow |
+|---|---|---|
+| The task starts at a physical place or object, from a QR code, NFC tag or shared link, or new users must act before installing (pay, check in, track a parcel, join an invite) | An App Clip for that one task | build-app-clip, then configure-app-clip-invocation for the QR/NFC/link launch and optimize-app-clip-size when the build is over budget |
+| The task pairs a Bluetooth accessory or acts on an NFC tag | Accessory onboarding and protocol-specific handling | connect-app-accessories |
+| The app shows, picks, or reacts to music (now playing, playlists, a soundtrack for a moment) | Apple Music playback and library access | integrate-music-playback |
+| Notes, annotation, markup on photos or documents, signatures, sketches | A PencilKit/PaperKit canvas with editable strokes | build-drawing-canvas |
+| The app owns a catalog of things people can point a camera at (products, food, places, plants, parcels) | Surfacing its entities in system visual search | integrate-visual-intelligence |
+| The app calls its own backend, and that backend costs money per call (LLM, transcription), holds a hardcoded or shared token, or can be abused | App Attest so the server only serves genuine app instances | verify-app-attestation |
+| Capturing a photo or video is the core action, not an occasional attachment | A purpose-built capture screen with fast launch and hardware controls instead of a system picker | build-responsive-camera |
+| The app parses untrusted bytes (BLE or network protocols, file formats, firmware), wraps C/C++, or uses unsafe pointers | Sanitizer coverage and memory-safety hardening at that boundary | harden-app-memory-safety |
+| Tests or development need a real backend, database or queue running locally | Reproducible local services in containers instead of hitting production or a hand-started server | isolate-local-app-services |
+| The product has a web page, landing page or companion site, and a physical or 3D subject | A progressive 3D preview on the web side | add-web-3d-preview |
+| The app sends short text or image tasks to a server model (summarize, classify, extract, tag, rewrite, suggest) | Running that task on device with Foundation Models, keeping the server as the alternative | build-foundation-model-feature |
+| An on-device model feature needs more reasoning than the device model gives, or must explain quota and offline limits | Private Cloud Compute for the heavy requests | configure-private-cloud-compute |
+| One assistant or chat in the app changes mode (planning, editing, answering) and needs different instructions or tools per mode | Profiles on one session instead of separate sessions | compose-foundation-model-profiles |
+| The app already has a server model (Gemini, Workers AI, Claude) and wants the same session and tool API on device and server | A provider adapter behind the Foundation Models interface | adapt-language-model-provider |
+
+The more common system surfaces follow the same rule when the app has something glanceable, ongoing or actionable and lacks them: design-app-widgets, design-live-activity, integrate-app-intents.
+
 ## Common requests
 
 - **Improve an existing app:** review-apple-app and review-app-design establish the problems; improve-interface-hierarchy clarifies structure and choices. Select design or implementation skills according to the findings, then verify changed areas.
-- **Design or build an app:** plan-native-app establishes a focused journey; design-app-interface and design-native-controls define the screens and interactions. Use prototype-swiftui-flow when a design question needs a runnable exploration, then choose the necessary implementation and verification workflows.
+- **Design or build an app:** plan-native-app establishes a focused journey and runs the opportunity check; design-app-interface and design-native-controls define the screens and interactions. Use prototype-swiftui-flow when a design question needs a runnable exploration, then choose the necessary implementation and verification workflows.
 - **Make choices clearer:** improve-interface-hierarchy handles content order, option comparison, and action priority; add improve-ux-copy or design-native-controls when labels or behavior contribute to confusion.
 - **Build or improve intelligence:** build-foundation-model-feature defines a scoped task; configure-private-cloud-compute handles cloud availability and quota recovery, compose-foundation-model-profiles handles changing task modes, and evaluate-model-quality measures model and prompt choices. Select these only when the app needs intelligence.
 - **Design a system snippet:** design-interactive-snippets covers compact results, confirmation, state refresh, and spoken feedback; use integrate-app-intents when entity lookup or underlying action integration also needs work.
