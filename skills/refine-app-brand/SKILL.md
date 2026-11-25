@@ -1,6 +1,6 @@
 ---
 name: refine-app-brand
-description: "Improve an Apple app\u2019s visual identity through content, typography, color, symbols, and interaction while keeping familiar native controls."
+description: "Improve an Apple app\u2019s visual identity and design system through SwiftUI tokens, imagery, typography, color, symbols, and interaction while keeping familiar native controls."
 ---
 
 # Refine Native App Branding
@@ -21,11 +21,15 @@ Inspect the relevant project conventions, supported platforms, deployment target
 4. Use system text styles or scale custom type with Dynamic Type. Make icons consistent and recognizable at small sizes; pair ambiguous imagery with labels.
 5. Invest custom-component effort in a distinctive product interaction with a clear benefit. Refine that interaction without replacing standard controls throughout the app.
 
-## Keep identity maintainable
+## Build an app-owned design system
 
-When identity spans repeated custom surfaces, consolidate the actual repeated values into semantic roles for text, accent, on-accent content, surfaces, selection, and motion. Preserve existing tokens and native adaptability. Components consume role names rather than raw palette entries; inspect accent text separately from text on accent fills across supported appearances and contrast settings.
+Inventory repeated decisions in code and representative screens. Extend existing tokens into a small SwiftUI vocabulary for semantic color, type roles and spacing. Components consume roles. Check text on accent fills separately from accent text. Scale custom type with `Font.custom(_:size:relativeTo:)` and use `@ScaledMetric` where geometry follows text size. Support Increased Contrast and Reduce Motion when the design depends on color or animation. Migrate one real journey before expanding the vocabulary.
 
-Document the few rules that explain token use in the project's existing design notes. Add a state gallery only when it helps verify reused custom parts. Introduce an accent picker, custom chrome, or new theme setting only when the product calls for it. For a named reference, use its measurable relationships while keeping the user's own identity and usable native controls. [Adaptation provenance](../apple-app-craft/references/bama-source.md).
+When the user points to Mobbin or another reference, use available reference tools or supplied screens to study hierarchy, density, action placement and pacing. Apply those observations to the app’s own palette, copy, type and assets. Keep reference screenshots in research. Use original mascot or illustration art when it supports a specific moment, such as onboarding or an empty state. Preserve accessible alternatives for meaningful images.
+
+Review the rendered journey for repetitive card shells, decorative badges, empty gradients, mixed icon styles and filler copy. Retain elements that serve the task or express the app’s identity. Record token roles and state behavior in the project’s existing design notes. [Adaptation provenance](../apple-app-craft/references/bama-source.md).
+
+Apple’s session supplies the component, content and typography principles. The token and reference workflow applies those principles to this collection. [Communicate your brand identity on iOS](https://developer.apple.com/videos/play/wwdc2026/251/).
 
 ## Verify the outcome
 

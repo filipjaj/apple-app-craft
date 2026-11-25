@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modernize AppKit Behavior"
+  short_description: "Update legacy AppKit input, keyboard access, quit behavior, and window restoration."
+  default_prompt: "Use $modernize-appkit-behavior for this Apple app task. Update legacy AppKit input, keyboard access, quit behavior, and window restoration."

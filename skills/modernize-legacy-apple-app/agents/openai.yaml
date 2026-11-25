@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modernize a Legacy Apple App"
+  short_description: "Move an Rx/UIKit slice behind SwiftUI while checking parity against a pinned release."
+  default_prompt: "Use $modernize-legacy-apple-app for this Apple app task. Move an Rx/UIKit slice behind SwiftUI while checking parity against a pinned release."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync an Apple App With Its Backend"
+  short_description: "Converge local changes with an app-owned backend through offline edits, retries, and account switches."
+  default_prompt: "Use $sync-app-with-backend for this Apple app task. Converge local changes with an app-owned backend through offline edits, retries, and account switches."

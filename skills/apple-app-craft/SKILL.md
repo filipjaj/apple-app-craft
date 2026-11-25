@@ -30,7 +30,7 @@ For a multi-step app build or backlog, read [the delivery workflow](references/d
 - **Make choices clearer:** improve-interface-hierarchy handles content order, option comparison, and action priority; add improve-ux-copy or design-native-controls when labels or behavior contribute to confusion.
 - **Build or improve intelligence:** build-foundation-model-feature defines a scoped task; configure-private-cloud-compute handles cloud availability and quota recovery, compose-foundation-model-profiles handles changing task modes, and evaluate-model-quality measures model and prompt choices. Select these only when the app needs intelligence.
 - **Design a system snippet:** design-interactive-snippets covers compact results, confirmation, state refresh, and spoken feedback; use integrate-app-intents when entity lookup or underlying action integration also needs work.
-- **Connect nearby devices:** integrate-wifi-aware covers capability gates, service declarations, system pairing, scoped connections, and measured latency/power choices. Use it when peer-to-peer connectivity is part of the requested app task.
+- **Connect accessories or read NFC tags:** connect-app-accessories covers BLE, Core NFC, and AccessorySetupKit. For explicitly requested Wi-Fi Aware transport, use integrate-wifi-aware.
 - **Embed web content:** integrate-webkit-swiftui covers page ownership, resource loading, navigation policies, JavaScript calls, and native content interaction. Use it for a SwiftUI app’s embedded web experience.
 - **Improve performance:** profile-swiftui-performance diagnoses responsiveness; optimize-app-rendering-power targets rendering energy; profile-foundation-model-performance targets intelligence latency; guard-app-performance-regressions makes a critical journey measurable over releases. Select the relevant goal and measure it.
 - **Improve iPad workspaces:** manage-app-windows preserves independent document contexts; design-app-command-menus organizes persistent commands and targets the active scene. Add adapt-apple-platform-design for width changes and design-native-controls for pointer behavior.
@@ -44,11 +44,16 @@ For a multi-step app build or backlog, read [the delivery workflow](references/d
 
 If the user explicitly asks to go through every skill, consider each skill’s applicability and report which were applied or skipped and why. Do not introduce unrelated services, 3D features, or system integrations simply to exercise their skills.
 
-- **Handle data and transport:** build-resilient-networking covers recoverable requests/transfers; synchronize-app-data covers convergence and account boundaries; extract-document-content covers recognition.
+- **Handle data and transport:** build-resilient-networking covers requests and transfers. Use sync-app-with-backend for an app-owned service and synchronize-app-data for CloudKit. Use extract-document-content for recognition.
 - **Add system experiences:** design-app-widgets, build-responsive-camera, build-drawing-canvas, integrate-music-playback and integrate-map-experience apply only when the requested app needs that capability.
 - **Improve trust and access:** protect-app-data-privacy, secure-app-authentication, verify-app-attestation, harden-app-memory-safety and secure-agentic-features each address a distinct boundary.
-- **Prepare for delivery:** localize-app-experience, diagnose-app-failures, automate-app-delivery and improve-app-store-discovery help make a tested app understandable and distributable. build-storekit-purchases owns paid-access behavior.
+- **Prepare for delivery:** ship-apple-app covers a concrete signed build, device install, TestFlight, and App Store submission. automate-app-delivery covers repeatable CI. Use improve-app-store-discovery for storefront optimization. Use localize-app-experience and diagnose-app-failures for their respective release work. build-storekit-purchases owns paid-access behavior.
 - **Use custom intelligence:** build-custom-model-feature handles model artifacts/inference, adapt-language-model-provider preserves provider semantics, and integrate-visual-intelligence returns relevant system search results.
+
+- **Modernize an existing app:** modernize-legacy-apple-app covers Rx/UIKit migration with a pinned baseline and parity evidence. For a bounded SwiftUI addition use embed-swiftui-in-native-app. For Mac event handling and state restoration use modernize-appkit-behavior.
+- **Deliver remote notifications:** deliver-apple-push-notifications covers APNs registration, provider delivery, and Live Activity push. design-live-activity covers the presentation.
+- **Capture and transcribe audio:** capture-and-transcribe-audio covers recording, stop and recovery, Speech or WhisperKit, and authorized server hand-off.
+- **Build a distinctive design system:** refine-app-brand covers app-owned color, type and spacing roles, reference adaptation, and a rendered design review.
 
 ## Skill catalog
 
@@ -56,6 +61,14 @@ Read the linked SKILL.md for the selected workflow. Names are shown without invo
 
 | Skill | Goal |
 |---|---|
+| [embed-swiftui-in-native-app](../embed-swiftui-in-native-app/SKILL.md) | Add a SwiftUI view, menu, or scene to an existing UIKit or AppKit app while preserving its lifecycle. |
+| [modernize-appkit-behavior](../modernize-appkit-behavior/SKILL.md) | Update legacy AppKit input, keyboard access, quit behavior, and window restoration. |
+| [ship-apple-app](../ship-apple-app/SKILL.md) | Archive, sign, upload, install, and prepare the selected build for TestFlight or App Review. |
+| [deliver-apple-push-notifications](../deliver-apple-push-notifications/SKILL.md) | Deliver and diagnose APNs and ActivityKit push across app, token store, and provider. |
+| [sync-app-with-backend](../sync-app-with-backend/SKILL.md) | Converge local changes with an app-owned backend through offline edits, retries, and account switches. |
+| [connect-app-accessories](../connect-app-accessories/SKILL.md) | Authorize and connect BLE accessories or implement a supported NFC tag interaction. |
+| [capture-and-transcribe-audio](../capture-and-transcribe-audio/SKILL.md) | Capture recoverable audio and produce transcripts with an on-device engine or an app-owned service. |
+| [modernize-legacy-apple-app](../modernize-legacy-apple-app/SKILL.md) | Move an Rx/UIKit slice behind SwiftUI while checking parity against a pinned release. |
 | [plan-native-app](../plan-native-app/SKILL.md) | Define the smallest coherent experience that lets the intended person accomplish their main task. |
 | [prototype-swiftui-flow](../prototype-swiftui-flow/SKILL.md) | Produce a runnable prototype that answers a specific design question. |
 | [review-apple-app](../review-apple-app/SKILL.md) | Find the most consequential obstacles to a reliable, understandable app experience. |

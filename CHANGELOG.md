@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Add eight workflows for app distribution, remote push, custom-backend sync, BLE and NFC, audio transcription, incremental SwiftUI adoption, and legacy UIKit and AppKit modernization.
+- Expand native branding with SwiftUI token roles, reference analysis, original artwork, and rendered-state review.
+- Route Bluetooth and NFC requests to accessory onboarding and retain a dedicated Wi-Fi Aware workflow.
+
 ## 0.1.0 — 2026-10-30
 
 - Publish the coordinated collection of 74 Apple app skills.

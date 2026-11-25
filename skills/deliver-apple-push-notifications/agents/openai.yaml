@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deliver Apple Push Notifications"
+  short_description: "Deliver and diagnose APNs and ActivityKit push across app, token store, and provider."
+  default_prompt: "Use $deliver-apple-push-notifications for this Apple app task. Deliver and diagnose APNs and ActivityKit push across app, token store, and provider."

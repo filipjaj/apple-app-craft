@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ship to TestFlight or the App Store"
+  short_description: "Archive, sign, upload, install, and prepare the selected build for TestFlight or App Review."
+  default_prompt: "Use $ship-apple-app for this Apple app task. Archive, sign, upload, install, and prepare the selected build for TestFlight or App Review."
