@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capture and Transcribe Audio"
+  short_description: "Capture recoverable audio and produce transcripts with an on-device engine or an app-owned service."
+  default_prompt: "Use $capture-and-transcribe-audio for this Apple app task. Capture recoverable audio and produce transcripts with an on-device engine or an app-owned service."

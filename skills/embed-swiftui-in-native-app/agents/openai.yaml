@@ -1,0 +1,4 @@
+interface:
+  display_name: "Embed SwiftUI in a Native App"
+  short_description: "Add a SwiftUI view, menu, or scene to an existing UIKit or AppKit app while preserving its lifecycle."
+  default_prompt: "Use $embed-swiftui-in-native-app for this Apple app task. Add a SwiftUI view, menu, or scene to an existing UIKit or AppKit app while preserving its lifecycle."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect BLE and NFC Accessories"
+  short_description: "Authorize and connect BLE accessories or implement a supported NFC tag interaction."
+  default_prompt: "Use $connect-app-accessories for this Apple app task. Authorize and connect BLE accessories or implement a supported NFC tag interaction."
