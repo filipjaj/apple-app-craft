@@ -1,6 +1,6 @@
 ---
 name: plan-native-app
-description: "Turn an Apple app idea or feature brief into a focused user journey, information architecture, and implementable acceptance criteria. Use before interface construction or when feature scope is unclear."
+description: "Turn an Apple app idea or feature brief into a focused user journey, information architecture, and implementable acceptance criteria, and name the system capabilities the app could use. Use when asked to build, create or scaffold a new iOS/macOS app or a larger feature, before interface construction, or when feature scope is unclear."
 ---
 
 # Plan a Native App
@@ -19,7 +19,8 @@ Inspect the relevant project conventions, supported platforms, deployment target
 2. Inventory proposed content and actions. Connect each to the main outcome; defer features without a clear role. Describe the primary journey with entry, success, cancellation, and recovery.
 3. Group stable content destinations separately from contextual actions. Choose tabs, hierarchy, and focused presentations based on the journey. For each screen answer: where am I, what can I do, and where can I go?
 4. Identify inclusion mismatches, needed permissions, and opportunities for recovery or undo. Request private information at the point its purpose is understandable.
-5. Produce a brief with screen responsibilities, a route sketch, meaningful data states, and observable acceptance criteria. Resolve architecture only to the extent needed for the next implementation.
+5. Run the opportunity check in [the collection entry point](../apple-app-craft/SKILL.md): compare the brief against its signal table and list up to three system capabilities that fit this app, one line each with the workflow name. Present them as optional scope; add none to the plan unless the user accepts.
+6. Produce a brief with screen responsibilities, a route sketch, meaningful data states, and observable acceptance criteria. Resolve architecture only to the extent needed for the next implementation.
 
 ## Implementation handoff
 
@@ -36,8 +37,9 @@ For bounded implementation across stories, follow [the collection workflow](../a
 - Walk through the primary task without unexplained jumps or missing decisions.
 - Exercise first use, empty content, failure, cancellation, and larger text in the proposed flow.
 - Every proposed feature has a stated user benefit; distinguish assumptions from known constraints.
+- The brief states which opportunity-check suggestions were offered, or that none fit.
 
-Do not replace the user’s product idea with a generic template or invent extra features.
+Do not replace the user’s product idea with a generic template or build features nobody accepted. Suggesting a fitting capability is expected; adding it unasked is not.
 
 ## Deliverable
 

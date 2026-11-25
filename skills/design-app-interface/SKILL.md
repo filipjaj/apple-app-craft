@@ -1,6 +1,6 @@
 ---
 name: design-app-interface
-description: "Design or redesign Apple app screens with deliberate content hierarchy, typography, spacing, color roles, and complete UI states. Use after the product journey is known; for critique of existing designs use review-app-design."
+description: "Design or redesign Apple app screens with deliberate content hierarchy, typography, spacing, color roles, and complete UI states. Use when designing new screens or when a design should feel more premium, less generic or less templated; for critique of existing designs use review-app-design."
 ---
 
 # Design an App Interface

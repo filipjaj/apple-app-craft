@@ -1,6 +1,6 @@
 ---
 name: review-apple-app
-description: "Review an Apple app or feature across its user journey, SwiftUI implementation, and native interaction quality. Use for an explicitly requested broad review; report evidence and prioritized fixes."
+description: "Review an Apple app or feature across its user journey, SwiftUI implementation, and native interaction quality. Use when asked to review an app, a feature or its user flow end to end; report evidence and prioritized fixes, plus system capabilities the app could use."
 ---
 
 # Review an Apple App
@@ -20,6 +20,8 @@ Inspect the relevant project conventions, supported platforms, deployment target
 3. Follow data ownership and stable identity through the relevant views. Inspect async boundaries, persistence errors, and expensive work only where the implementation or symptom makes them relevant.
 4. Check accessible semantics, scalable layout, and familiar control behavior. Use actual rendered or assistive-technology evidence when available; source inspection alone cannot establish usability.
 5. Report findings by user impact with a precise location, trigger, observed or inferred failure, and smallest useful correction. Distinguish defects from design alternatives. If fixes were requested, implement and verify the agreed scope.
+
+6. Close with the opportunity check in [the collection entry point](../apple-app-craft/SKILL.md): under a short "Could also use" heading, list up to three system capabilities that fit this app and are absent, one line each with the workflow name. Keep them separate from defects.
 
 ## Verify the outcome
 
